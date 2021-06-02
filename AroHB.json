@@ -1,0 +1,296 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AroHB",
+				"abbreviation": "AHB",
+				"full": "Arovei Homebrew",
+				"authors": [
+					"Arovei",
+					"Lindrea"
+				],
+				"convertedBy": [],
+				"version": "1",
+				"url": ""
+			}
+		],
+		"dateAdded": 1621818282,
+		"dateLastModified": 1621818282
+	},
+	"item": [
+	{
+      "name": "The Magic Eater",
+      "type": "S",
+      "rarity": "very rare",
+      "reqAttune": true,
+      "weight": 4,
+      "ac": 2,
+      "recharge": "dawn",
+      "charges": 20,
+      "entries": [
+        "The shield can hold 20 charges. It starts at zero, and loses {@dice 2d6} charges daily at dawn. Upon expending the final charge (if in combat) roll a {@dice d20}. On a 1, the shield consumes one of the wielder's highest level available spell slots and gains charges equal to the spell level. On a 20, the shield generates {@dice 2d6} charges.",
+		"While attuned to the shield, you have advantage on saving throws against spells.",
+        {
+          "name": "Spell Absorption",
+          "type": "entries",
+          "entries": [
+            "While holding the shield, you have advantage on saving throws against spells. In addition, you can use your reaction when another creature casts a spell that targets only you and you are aware of it. If you do, the shield absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the shield's total number of charges above 20, the shield fails to absorb the spell."
+          ]
+        },
+        {
+          "name": "Spells",
+          "type": "entries",
+          "entries": [
+            "While holding the shield, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: {@spell bless} (1 charge), {@spell shield} (1 charge), {@spell barkskin} (2 charges), {@spell misty step} (2 charges), or {@spell web} (2 charges).",
+            "You can also use an action to cast one of the following spells from the shield without using any charges: {@spell arcane lock}, {@spell detect magic}, {@spell enlarge/reduce}, {@spell light}, {@spell mage hand}, or {@spell protection from evil and good}."
+          ]
+        }
+      ],
+      "attachedSpells": [
+        "bless",
+        "shield",
+        "barkskin",
+        "misty step",
+        "web",
+        "arcane lock",
+        "detect magic",
+        "enlarge/reduce",
+        "light",
+        "mage hand",
+        "protection from evil and good"
+      ],
+      "source": "AroBrew"
+    },
+    {
+      "name": "The Magic Gorger",
+      "type": "S",
+      "rarity": "legendary",
+      "reqAttune": "by having at least one level one spell slot or higher",
+      "weight": 4,
+      "ac": 2,
+      "recharge": "dawn",
+      "charges": 20,
+      "entries": [
+        "The shield can hold 20 charges. It starts at zero, and loses {@dice 2d6} charges daily at dawn. Upon expending the final charge (if in combat) roll a {@dice d20}. On a 1, the shield consumes one of the wielder's highest level available spell slots and gains charges equal to the spell level. On a 20, the shield generates {@dice 2d6} charges.",
+		"While attuned to the shield, you have advantage on saving throws against spells.",
+        {
+          "name": "Spell Absorption",
+          "type": "entries",
+          "entries": [
+			"While equipped, the wielder has the option to use their reaction to consume any spell (that the wielder is aware of) that targets them. If they do, the shield cancels the spell and gains a number of charges equal to the absorbed spell's level. However, if doing so brings the shield's total number of charges above 20, the shield explodes activating it's shield shards ability (see below)."
+          ]
+        },
+        {
+          "name": "Spells",
+          "type": "entries",
+          "entries": [
+            "While holding the shield, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: {@spell bless} (1 charge), {@spell mirror image} (2 charges), {@spell shield} (1 charge), {@spell barkskin} (2 charges), {@spell misty step} (2 charges), transposition (3 charges), baleful transposition (5 charges), {@spell dispel magic} (3 charges), {@spell invisibility} (2 charges), {@spell passwall} (5 charges), {@spell telekinesis} (5 charges), {@spell wall of force} (5 charges), or {@spell web} (2 charges).",
+            "You can also use an action to cast one of the following spells from the shield without using any charges: {@spell arcane lock}, {@spell detect magic}, {@spell enlarge/reduce}, {@spell light}, {@spell mage hand}, or {@spell protection from evil and good}."
+          ]
+        },
+        {
+          "name": "Shield Shards",
+          "type": "entries",
+          "entries": [
+            "Upon reaching 20 charges, the shield erupts in a flash of magic light and splinters into large metal shards that begin to circle the wielder. Any spells originating or terminating within 30 feet of the player are automatically negated (as long as the wielder is aware they are being cast), spell effects already in place are not affected. Area spells landing within 30 feet are also consumed. Every spell consumed during shield shards increases the duration by one round. When attacked in melee, the attacker takes {@dice 1d8} force damage and lose their reaction until their next turn. Once per turn, while Shield Shards is active, you can make an attack against anyone within 30 feet of you as if you were adjacent to them. The attack is treated as if you were attacking with your primary weapon. Shield Shards lasts for a number of rounds equal to the level of spell that activated it, then returns to it's original form with no charges. If the wielder's offhand is occupied it falls to the floor at their feet."
+          ]
+        }
+      ],
+      "attachedSpells": [
+        "bless",
+        "mirror image",
+        "shield",
+        "barkskin",
+        "misty step",
+        "dispel magic",
+        "invisibility",
+        "passwall",
+        "telekinesis",
+        "wall of force",
+        "web",
+        "arcane lock",
+        "detect magic",
+        "enlarge/reduce",
+        "light",
+        "mage hand",
+        "protection from evil and good"
+      ],
+      "source": "AroBrew"
+    },
+	{
+      "name": "The Magic Glutton",
+      "type": "S",
+      "rarity": "legendary",
+      "reqAttune": "by having at least one level one spell slot or higher",
+      "weight": 4,
+      "ac": 2,
+      "recharge": "dawn",
+      "charges": 20,
+      "entries": [
+        "The shield can hold 20 charges. It starts at zero, and loses {@dice 2d6} charges daily at dawn. Upon expending the final charge (if in combat) roll a {@dice d20}. On a 1, the shield consumes one of the wielder's highest level available spell slots and gains charges equal to the spell level. On a 20, the shield generates {@dice 2d6} charges.",
+		"While attuned to the shield, you have advantage on saving throws against spells.",
+        {
+          "name": "Spell Absorption",
+          "type": "entries",
+          "entries": [
+            "While equipped, the wielder has the option to use their reaction to consume any spell (that the wielder is aware of) that targets them. If they do, the shield cancels the spell and gains a number of charges equal to the absorbed spell's level. However, if doing so brings the shield's total number of charges above 20, the shield fails to absorb the spell."
+          ]
+        },
+		{
+		  "name": "Shield",
+          "type": "entries",
+          "entries": [
+            "While the shield is equipped, the {@spell shield} spell is permanently in effect. The user gains nothing extra from having the spell cast on them via any other source."
+          ]
+		},
+        {
+          "name": "Spells",
+          "type": "entries",
+          "entries": [
+            "While holding the shield, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: {@spell bless} (1 charge), {@spell mirror image} (2 charges), {@spell shield of faith} (1 charge), {@spell barkskin} (2 charges), {@spell misty step} (2 charges), {@psionic Nomadic Step|UATheMysticClass|transposition} (3 charges), {@psionic Nomadic Step|UATheMysticClass|baleful transposition} (5 charges), {@spell dispel magic} (3 charges), {@spell invisibility} (2 charges), {@spell passwall} (5 charges), {@spell telekinesis} (5 charges), {@spell wall of force} (5 charges), or {@spell web} (2 charges).",
+            "You can also use an action to cast one of the following spells from the shield without using any charges: {@spell arcane lock}, {@spell detect magic}, {@spell enlarge/reduce}, {@spell light}, {@spell mage hand}, or {@spell protection from evil and good}."
+          ]
+        },
+        {
+          "name": "Shield Shards",
+          "type": "entries",
+          "entries": [
+            "At will, the wielder can cause the shield to erupt in a flash of magic light and splinter into large metal shards that begin to circle them. ANY spells originating or terminating within 30 feet of the wielder are automatically negated (as long as the wielder is aware they are being cast), spell effects already in place are not affected. Area spells landing within 30 feet are also consumed. Spells consumed while shards are active continue to generate charges. When attacked in melee, the attacker takes {@dice 1d8} force damage, and they lose their reaction until their next turn. Once per turn, while Shield Shards is active, you can make an attack against anyone within 30 feet of you as if you were adjacent to them. The attack is treated as if you were attacking with your primary weapon. Shield Shards lasts indefinitely until the wielder cancels it, whereupon it returns to it's original form. If the wielder's offhand is occupied it falls to the floor at their feet."
+          ]
+        }
+      ],
+      "attachedSpells": [
+        "bless",
+        "mirror image",
+        "shield",
+		"shield of faith",
+        "barkskin",
+        "misty step",
+        "dispel magic",
+        "invisibility",
+        "passwall",
+        "telekinesis",
+        "wall of force",
+        "web",
+        "arcane lock",
+        "detect magic",
+        "enlarge/reduce",
+        "light",
+        "mage hand",
+        "protection from evil and good"
+      ],
+      "source": "AroBrew"
+    },
+	{
+      "name": "The Magic Devourer",
+      "type": "S",
+      "rarity": "legendary",
+      "reqAttune": "by having at least one level one spell slot or higher",
+      "weight": 4,
+      "ac": 3,
+      "recharge": "dawn",
+      "charges": 20,
+      "entries": [
+        "The shield can hold 20 charges. It starts at zero, and loses {@dice 2d6} charges daily at dawn. Upon expending the final charge (if in combat) roll a {@dice d20}. On a 1, the shield consumes one of the wielder's highest level available spell slots and gains charges equal to the spell level. On a 20, the shield generates {@dice 2d6} charges.",
+		"While attuned to the shield, you have advantage on saving throws against spells.",
+        {
+          "name": "Spell Absorption",
+          "type": "entries",
+          "entries": [
+            "While equipped, the wielder has the option to use their reaction to consume any spell (that the wielder is aware of) that targets them. If they do, the shield cancels the spell and gains a number of charges equal to the absorbed spell's level. However, if doing so brings the shield's total number of charges above 20, the shield fails to absorb the spell."
+          ]
+        },
+		{
+		  "name": "Shield",
+          "type": "entries",
+          "entries": [
+            "While the shield is equipped, the {@spell shield} spell is permanently in effect. The user gains nothing extra from having the spell cast on them via any other source."
+          ]
+		},
+        {
+          "name": "Spells",
+          "type": "entries",
+          "entries": [
+            "While the shield is equipped, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: {@spell bless} (1 charge), {@spell mirror image} (2 charges), {@spell shield of faith} (1 charge), {@spell barkskin} (2 charges), {@spell misty step} (2 charges), {@psionic Nomadic Step|UATheMysticClass|transposition} (3 charges), {@psionic Nomadic Step|UATheMysticClass|baleful transposition} (5 charges), {@spell dispel magic} (3 charges), {@spell invisibility} (2 charges), {@spell passwall} (5 charges), {@spell telekinesis} (5 charges), {@spell wall of force} (5 charges), or {@spell web} (2 charges).",
+            "You can also use an action to cast one of the following spells from the shield without using any charges: {@spell arcane lock}, {@spell detect magic}, {@spell enlarge/reduce}, {@spell light}, {@spell mage hand}, or {@spell protection from evil and good}."
+          ]
+        },
+        {
+          "name": "Shield Shards",
+          "type": "entries",
+          "entries": [
+            "At will, the wielder can cause the shield to erupt in a flash of magic light and splinter into large metal shards that begin to circle them. Any spells originating or terminating within 30 feet of the wielder can be negated if they choose to (as long as the wielder is aware they are being cast). Area spells landing within 30 feet can also be consumed. Spells consumed while shards are active continue to generate charges. When attacked in melee, the attacker takes {@dice 1d8} force damage, and they lose their reaction until their next turn. Once per turn, while Shield Shards is active, you can make an attack against anyone within 30 feet of you as if you were adjacent to them. The attack is treated as if you were attacking with your primary weapon. Shield Shards lasts indefinitely until the wielder cancels it, whereupon it returns to it's original form. If the wielder's offhand is occupied it falls to the floor at their feet."
+          ]
+        }
+      ],
+      "attachedSpells": [
+        "bless",
+        "mirror image",
+        "shield",
+		"shield of faith",
+        "barkskin",
+        "misty step",
+        "dispel magic",
+        "invisibility",
+        "passwall",
+        "telekinesis",
+        "wall of force",
+        "web",
+        "arcane lock",
+        "detect magic",
+        "enlarge/reduce",
+        "light",
+        "mage hand",
+        "protection from evil and good"
+      ],
+      "source": "AroBrew"
+    },
+	{
+		"name": "Capped Staff of Retaliation",
+		"type": "M",
+		"weapon": true,
+		"weaponCategory": "simple",
+		"rarity": "legendary",
+		"reqAttune": "to any tier of The Magic Eater shield",
+		"weight": 4,
+		"dmg1": "1d6",
+		"dmgType": "B",
+		"dmg2": "1d8",
+		"bonusWeapon": "+2",
+		"bonusSpellAttack": "+2",
+		"bonusAc": "+2",
+		"bonusSavingThrow": "+2",
+		"recharge": "dawn",
+		"charges": 10,
+		"staff": true,
+		"property": [
+			"V"
+		],
+		"entries": [
+			"This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls. It is stored inside any version of the Magic Eater shield and can be pulled out at will by whoever is attuned to the shield. The staff and shield cannot be separated by more than 60 feet, and doing so will cause the staff to dematerialize and return to the shield. The staff regains {@dice 1d6 + 4} expended charges daily at dawn.",
+			{
+				"type": "entries",
+				"name": "Staff Echoes",
+				"entries": [
+					"The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra {@dice 1d6} force damage. If you choose not to expend a charge when attacking, and you land the hit, gain 1 charge. The staff regains {@dice 1d6 + 4} expended charges daily at dawn."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Swappable Caps",
+				"entries": [
+					"On each end of the staff are two caps that can be changed out via magic. Channeling into the staff for 3 minutes allows the wielder to switch one or both end caps with alternate ones. These end caps can be enchanted with their own spells, and the wielder gains access to the benefit of whatever spell is on a cap while it is wielded."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Retaliation",
+				"entries": [
+					"If this staff is wielded while any tier of The Magic Eater shield is equipped, any attack against the wielder causes the attacker to take {@dice 1d8} force damage."
+				]
+			}
+		],
+		"source": "AroBrew"
+	}
+  ]
+}
